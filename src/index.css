@@ -1,7 +1,5 @@
-.list {
-  text-align: left;
-  max-width: 750px;
-  margin: auto;
+.list .action {
+  cursor: pointer;
 }
 
 .submit-form {
@@ -12,4 +10,9 @@
 .edit-form {
   max-width: 300px;
   margin: auto;
+}
+
+.table{
+  --bs-table-hover-color: black;
+  --bs-table-hover-bg: #1686f56b;
 }
